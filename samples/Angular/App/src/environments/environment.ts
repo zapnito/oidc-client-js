@@ -4,11 +4,11 @@
 
 export const environment = {
   production: false,
-  stsAuthority: 'https://demo.identityserver.io/',
-  clientId: 'implicit',
+  stsAuthority: 'http://zapnito.localhost:3000/',
+  clientId: '5f-kRL4vGJNBvMV4fNuxwNLsyKTZsKJg7gvDFdCgz50',
   clientRoot: 'http://localhost:4200/',
-  clientScope: 'openid profile email api',
-  apiRoot: 'https://demo.identityserver.io/api/',
+  clientScope: 'openid profile',
+  apiRoot: 'http://zapnito.localhost:3000/',
 };
 
 /*
